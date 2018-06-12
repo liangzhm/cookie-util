@@ -2,12 +2,6 @@
 
 ## 调用方式
 
-### babel
-
-```
-import CookieUtil from 'cookie-util';
-```
-
 ### 普通引入方式
 
 `<script type="text/javascript" src="/cookie-util/index.js">`
@@ -22,7 +16,13 @@ require(['cookie-util'], function(CookieUtil){
 })
 ```
 
-### Node
+### CMD
+
+```
+import CookieUtil from 'cookie-util';
+```
+
+### Node （暂未发布到公共npm平台）
 
 `npm install 'cookie-util';`
 
